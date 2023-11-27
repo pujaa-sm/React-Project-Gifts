@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+  }
+  
+  .card {
+    margin: 10px; /* Adjust margin as needed */
+  }
+  
+.card1{
+    align-items: center;
+    overflow: hidden;
+    
+    border-radius: none;
+    display: grid;
+    /* flex-direction: column; */
+    justify-content:space-evenly;
+    cursor: pointer;
+    /* margin-top: 8rem; */
+
+}
+.image{
+    height: 6rem;
+    width: 100%;
+    object-fit: cover;
+}
+
+.btn{
+    padding: 1rem;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 1rem;
+    /* margin: 5rem; */
+    border-radius: none;
+}
